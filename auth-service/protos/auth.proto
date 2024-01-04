@@ -1,0 +1,19 @@
+syntax = "proto3";
+package auth;
+
+message TokenParams {
+  string token = 1;
+}
+
+message TokenResponse {
+  string userId = 1;
+  string name = 2;
+  string email = 3;
+  string role = 4;
+}
+
+message Empty {}
+
+service Authentication{
+    rpc verifyToken (TokenParams) returns (TokenResponse)
+}
