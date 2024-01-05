@@ -3,7 +3,8 @@ import protoLoader from '@grpc/proto-loader';
 import path from 'path';
 import grpcFuntions from '../src/common/gRPC.helper.js';
 import { config } from './config/index.js';
-const PROTO_PATH = path.join(__dirname,'../../protos/auth.proto');
+const __dirname = new URL('.', import.meta.url).pathname;
+const PROTO_PATH = path.join(__dirname,'../protos/auth.proto');
 
 const options = {
 	keepCase: true,
@@ -17,23 +18,24 @@ var packageDefinition = protoLoader.loadSync(PROTO_PATH, options);
 const authProto = grpc.loadPackageDefinition(packageDefinition).auth;
 
 const server = new grpc.Server();
+
 const services = {};
 
 Object.entries(grpcFuntions).forEach(([functionName, func]) => {
-    services[functionName] = async (call,callback) => {
-        try {
-            const response = await func(call.request);
-            callback([functionName, func])(null, response);
-        } catch (error){
-            callback(error,null);
-        }
-    }
-})
+	services[functionName] = async (call, callback) => {
+		try {
+			const response = await func(call.request);
+			callback(null, response);
+		} catch (error) {
+			callback(error, null);
+		}
+	};
+});
 
 server.addService(authProto.Authentication.service, services);
 
 server.bindAsync(
-    '0.0.0.0:'+ config.grpcPort,
+    '0.0.0.0:50051',
     grpc.ServerCredentials.createInsecure(),
     (error,port) => {
         if (error){
@@ -45,6 +47,7 @@ server.bindAsync(
     }
 )
 
+export default server;
 
 
 

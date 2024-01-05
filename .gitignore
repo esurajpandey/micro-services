@@ -1,10 +1,14 @@
 /auth-service/node_modules/**
 /auth-service/node_modules
 /auth-service/.env
+/auth-service/logs
 /user-service/node_modules/**
 /user-service/node_modules
 /user-service/.env
+/user-service/logs
 /blog-service/node_modules/**
 /blog-service/node_modules
 /blog-service/.env
+/blog-service/logs
+
 

@@ -1,6 +1,7 @@
-import Config from "./config";
+import Config from "./config.js";
+import dotenv from 'dotenv';
+
 if (!process.env.NODE_ENV) {
-	const dotenv = require('dotenv');
 	dotenv.config();
 }
 
