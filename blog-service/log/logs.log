@@ -1,0 +1,253 @@
+[2024-01-08 06:22:30] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 06:22:30] INFO: []: Server listening at http://0.0.0.0:5000
+[2024-01-08 06:22:30] INFO: []: Server listening on http://0.0.0.0:5000
+[2024-01-08 08:03:17] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:03:17] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:04:08] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:04:08] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:06:15] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:06:15] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:06:36] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:06:36] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:07:53] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:07:53] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:08:57] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:08:57] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:09:23] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:09:23] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:09:33] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:09:33] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:09:56] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:09:56] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:10:15] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:10:15] INFO: []: [blog-service]-[listen] error starting the serve-r @ undefined with error TypeError: Channel target must be a string
+[2024-01-08 08:11:05] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:11:05] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:11:05] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:11:24] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:11:24] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:11:24] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:11:33] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:11:33] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:11:33] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:11:58] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:11:58] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:11:58] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:12:40] INFO: [ad06ebf3-74dd-4571-8644-17bc8843d0e3]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:12:40] INFO: [ad06ebf3-74dd-4571-8644-17bc8843d0e3]: Route GET:/blog/health not found
+[2024-01-08 08:12:40] INFO: [ad06ebf3-74dd-4571-8644-17bc8843d0e3]: request completed
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 4.240176999941468
+[2024-01-08 08:12:40] INFO: [f90461b6-b5a8-4730-af89-b31b635d6d58]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/favicon.ico",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:12:40] INFO: [f90461b6-b5a8-4730-af89-b31b635d6d58]: Route GET:/favicon.ico not found
+[2024-01-08 08:12:40] INFO: [f90461b6-b5a8-4730-af89-b31b635d6d58]: request completed
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 0.4075760003179312
+[2024-01-08 08:13:12] INFO: [07c26e83-0ce5-4839-ac88-63283e5c9425]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:13:12] INFO: [07c26e83-0ce5-4839-ac88-63283e5c9425]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.5868360009044409
+[2024-01-08 08:14:28] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:14:28] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:14:28] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:14:34] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:14:34] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:14:34] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:00] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:15:00] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:15:00] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:04] INFO: [0cde1365-fb73-4d60-b1ef-27a2cf3b5299]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:04] INFO: [0cde1365-fb73-4d60-b1ef-27a2cf3b5299]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.0551439989358187
+[2024-01-08 08:15:09] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:15:09] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:15:09] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:11] INFO: [f669fd45-a206-4f57-ad18-9eb3655ac90c]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:11] INFO: [f669fd45-a206-4f57-ad18-9eb3655ac90c]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 4.481975000351667
+[2024-01-08 08:15:28] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:15:28] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:15:28] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:32] INFO: [c6c22eff-1574-40fa-ae4c-a6341c244670]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:32] INFO: [c6c22eff-1574-40fa-ae4c-a6341c244670]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.3959209993481636
+[2024-01-08 08:15:36] INFO: [27361acf-3142-497d-b9a3-0f70d0081737]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:36] INFO: [27361acf-3142-497d-b9a3-0f70d0081737]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.47232599928975105
+[2024-01-08 08:15:44] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:15:44] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:15:44] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:46] INFO: [ce885d3f-a36c-4fce-beb7-95b53c6c9cef]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:46] INFO: [ce885d3f-a36c-4fce-beb7-95b53c6c9cef]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 5.368198998272419
+[2024-01-08 08:15:56] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:15:57] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:15:57] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:15:59] INFO: [ef531e78-ec69-45fe-95ca-35bc52279e6f]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:15:59] INFO: [ef531e78-ec69-45fe-95ca-35bc52279e6f]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 23.925248000770807
+[2024-01-08 08:16:08] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:16:08] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:16:08] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:16:10] INFO: [fd8ef7ad-7f18-441a-854b-f7685a589b1c]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:16:10] INFO: [fd8ef7ad-7f18-441a-854b-f7685a589b1c]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 18.296986000612378
+[2024-01-08 08:16:35] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:16:35] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:16:35] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:16:37] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:16:37] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:16:37] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:16:41] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:16:41] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:16:41] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:16:43] INFO: [986f13c9-ff5d-44df-846c-d140598921ab]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:16:43] INFO: [986f13c9-ff5d-44df-846c-d140598921ab]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.2098999992012978
+[2024-01-08 08:16:57] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:16:58] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:16:58] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:16:59] INFO: [aef0f4f0-9d74-4499-9f5c-0e4fd1359bf5]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:16:59] INFO: [aef0f4f0-9d74-4499-9f5c-0e4fd1359bf5]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.390711000189185
+[2024-01-08 08:17:02] INFO: [06a62e5c-516b-4a0c-88c4-31f56f1eb2ad]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:17:02] INFO: [06a62e5c-516b-4a0c-88c4-31f56f1eb2ad]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.32870300114154816
+[2024-01-08 08:17:06] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:17:06] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:17:06] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:17:07] INFO: [e9f6a72a-172a-461f-8595-d4942edd4b53]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:17:07] INFO: [e9f6a72a-172a-461f-8595-d4942edd4b53]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.3391929995268583
+[2024-01-08 08:17:20] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:17:20] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:17:20] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:17:27] INFO: [6becfadd-af33-434d-8672-313744b6ed17]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-08 08:17:27] INFO: [6becfadd-af33-434d-8672-313744b6ed17]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 17.876991000026464
+[2024-01-08 08:18:02] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:18:02] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:18:02] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:18:12] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:18:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:18:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-08 08:18:25] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-08 08:18:25] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-08 08:18:25] INFO: []: Server listening on http://0.0.0.0:8000
