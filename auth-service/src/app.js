@@ -4,20 +4,20 @@ import { PrismaClient } from '@prisma/client';
 import path from 'path';
 import fs from 'fs/promises';
 import logger,{tracer} from '../src/utils/logger.js';
-
 class App{
     constructor () {
         this.app = new express();
         this.enbaleCors();
+     
+        this.initializeErrorHandler();
+        this.initializePreHandlers();
         this.initializeRoutes()
         .then(() => {
-            // console.log(`[Auth-Service]-[Routers] has been initialied`);
             logger.info(`[Auth-Service]-[Routers] has been initialied`)
         })
         .catch((error) => {
             logger.error({message : '[Auth-Service]-[Routers] initialization error',error});
         })
-        this.initializePreHandlers()
     }
 
     async initializeRoutes() {
@@ -36,6 +36,11 @@ class App{
         }
     }
 
+    initializeErrorHandler () {
+        this.app.use((error,req,resp,next) => {
+            // console.log({error});
+        })
+    }
     initializePreHandlers () {
         this.app.use(express.urlencoded({extended : true}));
         this.app.use(express.json());
