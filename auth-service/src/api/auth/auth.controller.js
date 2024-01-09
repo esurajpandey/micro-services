@@ -47,7 +47,7 @@ class AuthController {
         throw new BadRequest('User not exist', 400)
       }
 
-      const isMatched = bcrypt.compare(request.body.password, user.password)
+      const isMatched = await bcrypt.compare(request.body.password, user.password);
 
       if (!isMatched) {
         throw new UnAuthorized({
