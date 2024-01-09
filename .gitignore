@@ -5,11 +5,13 @@
 /user-service/node_modules/**
 /user-service/node_modules
 /user-service/.env
-/user-service/logs
+/user-service/logs.log
+/user-service/dist
+/user-service/dist/**
 /blog-service/node_modules/**
 /blog-service/node_modules
 /blog-service/.env
-/blog-service/log/**
+/blog-service/log/logs.log
 /blog-service/dist
 /blog-service/dist/**
 

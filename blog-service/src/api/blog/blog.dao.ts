@@ -28,6 +28,30 @@ class BlogDao {
       },
     });
   }
+
+  async getBlogs() {
+    return await client.blogs.findMany({
+      select : {
+        id : true,
+        createdAt : true,
+        imageUrl : true,
+        subtitle : true,
+        tag :  {
+          select : {
+            name : true,
+            id : true,
+          }
+        },
+        title : true,
+        user  : {
+          select : {
+            id : true,
+            name : true,
+          }
+        }
+      }
+    })
+  }
 }
 
 export default BlogDao;

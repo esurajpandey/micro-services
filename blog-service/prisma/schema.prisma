@@ -17,7 +17,7 @@ model Users {
   phoneNumber String     @unique @map("phone_number")
   role        role_types @default(USER)
   blogs       Blogs[]
-
+  password    String?
   @@index([email])
   @@map("users")
 }
