@@ -1,27 +1,31 @@
 import { authClient } from "../config/gRPC";
-import { FastifyError, FastifyReply, FastifyRequest, preHandlerHookHandler } from 'fastify';
-import { config } from "../config";
+import {
+  FastifyError,
+  FastifyReply,
+  FastifyRequest,
+  preHandlerHookHandler,
+} from "fastify";
+import UnAuthorized from "../exception/UnAuthorized.exception";
 
-export const authPrehandler : preHandlerHookHandler = (
-    request: FastifyRequest,
-	_: FastifyReply,
-	// eslint-disable-next-line no-unused-vars
-	next: (_error?: FastifyError) => void
+export const authPrehandler: preHandlerHookHandler = (
+  request: FastifyRequest,
+  _: FastifyReply,
+  next: (_error?: FastifyError) => void,
 ) => {
-    const ignorePaths = [/\/health/];
-    if (ignorePaths.find(path => path.test(request.url))) return next();
+  const ignorePaths = [/\/health/];
+  if (ignorePaths.find((path) => path.test(request.url))) return next();
+  const token = request.headers["authorization"]?.split(" ")[1] as string;
 
-    // const token = request.headers.cookie?.match(/token=(.*?)(;|$)/)?.[1] || '';
-    const token = 'Suraj is my name';
-    authClient.verifyToken({ token }, (error: Error, tokenData: any) => {
-		if (error) {
-            console.log({Error :   `Error  : ${error}`})
-        };
-
-		// request.requestContext.set('userId', tokenData.userId);
-		// request.requestContext.set('tokenData', tokenData);
-        console.log({tokenData});
-		next();
-	});
-}
-
+  if (!token) {
+    throw new UnAuthorized();
+  }
+  authClient.verifyToken({ token }, (error: any, tokenData: any) => {
+    if (error) {
+      new UnAuthorized(error?.details || error?.message);
+    }
+    request.requestContext.set("userId", tokenData.userId);
+    request.requestContext.set("role", tokenData.role);
+    request.requestContext.set("email", tokenData.email);
+    next();
+  });
+};

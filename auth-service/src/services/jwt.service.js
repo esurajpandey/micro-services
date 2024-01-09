@@ -2,13 +2,16 @@ import jwt from 'jsonwebtoken'
 import { config } from '../config/index.js'
 
 class JWT {
-  generateToken(payload) {
-    return jwt.sign(payload, config.jwtSecret, { expiresIn: '1d' })
+   generateToken(payload) {
+    return jwt.sign(payload,config.jwtSecret,{ 
+      expiresIn: '1d' 
+    })
   }
 
   verifyToken(token) {
     try {
-      return jwt.verify(token, config.jwtSecret)
+     const data = jwt.decode(token.token,config.jwtSecret);
+     return data;
     } catch (error) {
       return null
     }

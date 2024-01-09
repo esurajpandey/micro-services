@@ -39,13 +39,10 @@ const swagger_config_1 = require("./config/swagger.config");
 const fastify_multer_1 = __importDefault(require("fastify-multer"));
 const prisma_1 = __importDefault(require("./utils/prisma"));
 class App {
-    constructor(opts, context) {
-        this.contextData = { userId: null, blogId: null };
+    constructor(opts) {
         this.fastifyInstance = (0, fastify_1.default)(opts);
-        this.initializeSwagger();
-        if (context)
-            this.contextData = context;
         this.initializeErrorHandler();
+        this.initializeSwagger();
         this.initializePreHandlers();
         this.initializeRoutes();
     }
@@ -86,12 +83,17 @@ class App {
     }
     initializePreHandlers() {
         this.fastifyInstance.register(fastify_multer_1.default.contentParser);
-        this.fastifyInstance.register(request_context_1.default, {
-            defaultStoreValues: this.contextData,
-        });
         this.fastifyInstance.register(cors_1.default, {
             origin: ['http://localhost:3000', config_1.config.baseUrl],
             credentials: true,
+        });
+        this.fastifyInstance.register(request_context_1.default, {
+            defaultStoreValues: {
+                userId: null,
+                email: null,
+                name: null,
+                role: null,
+            },
         });
         this.fastifyInstance.register(logger_1.rTracerPlugin, {
             echoHeader: true,

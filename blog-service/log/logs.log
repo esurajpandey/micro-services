@@ -251,3 +251,648 @@
 [2024-01-08 08:18:25] INFO: []: [blog-service]-[prisma] Database connected
 [2024-01-08 08:18:25] INFO: []: Server listening at http://0.0.0.0:8000
 [2024-01-08 08:18:25] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 05:59:53] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 05:59:53] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 05:59:53] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:00:04] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:00:04] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:00:04] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:01:12] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:01:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:01:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:02:49] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:02:49] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:02:49] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:03:52] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:03:52] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:03:52] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:04:19] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:04:20] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:04:20] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:04:23] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:04:23] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:04:23] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:04:43] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:04:43] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:04:43] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:04:50] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:04:50] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:04:50] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:05:21] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:05:21] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:05:21] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:06:10] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:06:10] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:06:10] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:08:17] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:08:17] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:08:17] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:08:44] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:08:44] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:08:44] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:08:52] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:08:53] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:08:53] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:09:14] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:09:14] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:09:14] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:10:42] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:10:42] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:10:42] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:10:43] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:10:43] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:10:43] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:11:23] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:11:23] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:11:23] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:12:51] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:12:51] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:12:51] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:17:05] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:17:05] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:17:05] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:17:41] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:17:41] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:17:41] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:17:48] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:17:48] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:17:48] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:18:33] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:18:33] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:18:33] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:19:58] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:19:58] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:19:58] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:26:55] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:26:55] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:26:55] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:27:30] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:27:30] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:27:30] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:27:45] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:27:45] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:27:45] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:27:49] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:27:49] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:27:49] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:28:45] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:28:45] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:28:45] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:32:05] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:32:05] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:32:05] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:32:12] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:32:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:32:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:35:48] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:35:48] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:35:48] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:36:09] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:36:09] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:36:09] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:36:21] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:36:21] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:36:21] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:36:35] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:36:35] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:36:35] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:36:50] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:36:51] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:36:51] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:36:53] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:36:53] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:36:53] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:39:19] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:39:19] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:39:19] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:40:25] INFO: [1401065b-e5de-4991-9cb2-d8fa8950b23f]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/health",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:40:25] INFO: [1401065b-e5de-4991-9cb2-d8fa8950b23f]: Health Check
+[2024-01-09 06:40:25] INFO: [1401065b-e5de-4991-9cb2-d8fa8950b23f]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.1588570000603795
+[2024-01-09 06:41:04] INFO: [b35b7823-c00f-4b2f-b21d-902c53a6c698]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:41:04] INFO: [b35b7823-c00f-4b2f-b21d-902c53a6c698]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 11.311557999812067
+[2024-01-09 06:42:19] INFO: [1d317d62-321a-4c82-ab76-e42e58d88b73]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:42:19] INFO: [b35b7823-c00f-4b2f-b21d-902c53a6c698]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 9.140666000545025
+[2024-01-09 06:42:30] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:42:30] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:42:30] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:42:36] INFO: [8de6ffa4-fda4-47dc-a2f2-e7c84d8dc90f]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:42:36] INFO: [8de6ffa4-fda4-47dc-a2f2-e7c84d8dc90f]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 17.911004999652505
+[2024-01-09 06:42:49] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:42:49] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:42:49] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:42:50] INFO: [290d830a-72d2-4d57-a201-189954ed7a7b]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:42:50] INFO: [290d830a-72d2-4d57-a201-189954ed7a7b]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 21.350011000409722
+[2024-01-09 06:43:12] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:43:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:43:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:43:14] INFO: [dbe97024-a8f9-45d4-aa0e-96055ca104ed]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:43:14] INFO: [dbe97024-a8f9-45d4-aa0e-96055ca104ed]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 21.25829799938947
+[2024-01-09 06:44:16] INFO: [21b093a6-d045-42fa-92f8-62083ae1c8a2]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:44:16] INFO: [dbe97024-a8f9-45d4-aa0e-96055ca104ed]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 8.398043000139296
+[2024-01-09 06:45:09] INFO: [1f5af91b-ea97-4bde-825b-fbf022375841]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:45:14] INFO: [dbe97024-a8f9-45d4-aa0e-96055ca104ed]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 5431.822452000342
+[2024-01-09 06:45:33] INFO: [d18049ba-2211-421c-9f8e-741b41b87232]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:45:33] INFO: [d18049ba-2211-421c-9f8e-741b41b87232]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 9.287046999670565
+[2024-01-09 06:46:17] INFO: [4453ce68-8a5a-432d-a4b1-d81596a17e40]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:46:17] INFO: [4453ce68-8a5a-432d-a4b1-d81596a17e40]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 10.658324000425637
+[2024-01-09 06:46:47] INFO: [f3235373-a1cb-4292-ac8f-934df70a3bef]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:47:14] INFO: [dbe97024-a8f9-45d4-aa0e-96055ca104ed]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 27018.455078999512
+[2024-01-09 06:48:11] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:48:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:48:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:48:32] INFO: [77731db9-9f8e-46ad-9983-62f3aabd9d8f]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:48:32] INFO: [77731db9-9f8e-46ad-9983-62f3aabd9d8f]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 22.30248999968171
+[2024-01-09 06:49:03] INFO: [70dcdbe0-612c-424a-b164-6121faec88dd]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:49:03] INFO: [77731db9-9f8e-46ad-9983-62f3aabd9d8f]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 7.826569999568164
+[2024-01-09 06:51:15] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:51:15] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:51:15] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:52:04] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:52:04] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:52:04] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:52:22] INFO: [5e37c32d-7e74-4233-8669-374a49691eb1]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:52:22] INFO: [5e37c32d-7e74-4233-8669-374a49691eb1]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 23.521356999874115
+[2024-01-09 06:53:10] INFO: [24b12d9e-a63b-4834-ab4e-5ce803083da0]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:53:10] INFO: [5e37c32d-7e74-4233-8669-374a49691eb1]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 8.740547999739647
+[2024-01-09 06:53:17] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:53:17] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:53:17] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:53:20] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 06:53:20] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 06:53:20] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 06:53:27] INFO: [d4bbf15e-207a-4659-8d24-89ac521a474e]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:53:27] INFO: [d4bbf15e-207a-4659-8d24-89ac521a474e]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 21.79348300024867
+[2024-01-09 06:54:13] INFO: [d0b90d10-61b8-4540-9e48-8fbe636b90e2]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:54:13] INFO: [d0b90d10-61b8-4540-9e48-8fbe636b90e2]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 8.629435999318957
+[2024-01-09 06:54:32] INFO: [e51b761f-07e8-485a-ade5-4690324fc1b2]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:54:38] INFO: [6d7b2da1-20f0-4331-ab3e-47394e951487]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:54:52] INFO: [130ca6db-d83d-4ad5-817b-db761bb4bfd5]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 06:54:57] INFO: [d4bbf15e-207a-4659-8d24-89ac521a474e]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 4754.1792799998075
+[2024-01-09 07:01:13] INFO: [bec5a979-78f2-49f7-ab45-b5e1ed69d7b3]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:01:13] INFO: [d4bbf15e-207a-4659-8d24-89ac521a474e]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 6.375070000067353
+[2024-01-09 07:01:39] INFO: [f5c566f0-fa8a-4573-b197-8fc7939a97ff]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:01:39] INFO: [f5c566f0-fa8a-4573-b197-8fc7939a97ff]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 7.897725000046194
+[2024-01-09 07:11:43] INFO: [9ae952cf-623e-456d-851e-3a3a1e5df8b5]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:11:43] INFO: [9ae952cf-623e-456d-851e-3a3a1e5df8b5]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 10.136342000216246
+[2024-01-09 07:11:51] INFO: [99ab7a6e-32e6-4b94-b676-f18b1c008b27]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:11:51] INFO: [99ab7a6e-32e6-4b94-b676-f18b1c008b27]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 9.396544000133872
+[2024-01-09 07:13:27] INFO: [1c217b4c-96f2-4c3c-b7af-cbea1f529c8e]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:13:27] INFO: [1c217b4c-96f2-4c3c-b7af-cbea1f529c8e]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 9.526841999962926
+[2024-01-09 07:13:57] INFO: [b2168bb6-6d23-4271-9340-5676b0a2a6ef]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:14:09] INFO: [99ab7a6e-32e6-4b94-b676-f18b1c008b27]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 12480.129379999824
+[2024-01-09 07:14:44] INFO: [9c60170a-544c-44f8-a720-fcf62f9fe45a]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:14:44] INFO: [9c60170a-544c-44f8-a720-fcf62f9fe45a]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 6.601563000120223
+[2024-01-09 07:16:01] INFO: [6b14c0a4-16ad-495e-9f53-165790325a25]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:16:01] INFO: [6b14c0a4-16ad-495e-9f53-165790325a25]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 8.728862999938428
+[2024-01-09 07:16:31] INFO: [5540624c-04d7-412a-bf88-d0fd442ae161]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:16:31] INFO: [5540624c-04d7-412a-bf88-d0fd442ae161]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 8.543313999660313
+[2024-01-09 07:18:13] INFO: [101e2fb6-5b94-4335-b2fd-7b7e6a7174cd]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:18:13] INFO: [101e2fb6-5b94-4335-b2fd-7b7e6a7174cd]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 9.389421999454498
+[2024-01-09 07:20:39] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:20:39] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:20:39] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:24:16] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:24:16] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:24:16] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:25:57] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:25:57] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:25:57] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:28:29] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:28:29] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:28:29] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:29:04] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:29:04] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:29:04] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:29:15] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:29:15] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:29:15] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:31:39] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:31:39] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:31:39] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:31:56] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:31:56] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:31:56] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:05] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:05] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:05] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:07] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:07] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:07] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:09] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:09] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:09] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:15] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:15] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:15] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:35] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:35] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:35] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:50] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:32:50] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:32:50] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:32:51] INFO: [28ec0552-164b-49f5-b933-6ee87350d028]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:32:51] INFO: [28ec0552-164b-49f5-b933-6ee87350d028]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 25.18961000069976
+[2024-01-09 07:33:03] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:33:03] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:33:03] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:33:05] INFO: [c42a20bf-e8c8-41ac-8682-6225ebaaab90]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:33:05] INFO: [c42a20bf-e8c8-41ac-8682-6225ebaaab90]: 
+    error: "Error: UnAutherized\n    at Object.callback (/home/devguru/Project/micro-services/blog-service/dist/src/pre-handlers/auth.prehandler.js:20:25)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client.js:192:36)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)\n    at /home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"
+[2024-01-09 07:33:05] INFO: [c42a20bf-e8c8-41ac-8682-6225ebaaab90]: request completed
+    res: {
+      "statusCode": 401
+    }
+    responseTime: 20.896719999611378
+[2024-01-09 07:33:32] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:33:32] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:33:32] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:33:33] INFO: [8a683611-02ba-4976-ae78-9167308c7f7c]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:33:33] INFO: [8a683611-02ba-4976-ae78-9167308c7f7c]: 
+    error: "Error: UnAutherized\n    at Object.callback (/home/devguru/Project/micro-services/blog-service/dist/src/pre-handlers/auth.prehandler.js:21:25)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client.js:192:36)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)\n    at /home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"
+[2024-01-09 07:33:33] INFO: [8a683611-02ba-4976-ae78-9167308c7f7c]: request completed
+    res: {
+      "statusCode": 401
+    }
+    responseTime: 17.37568899989128
+[2024-01-09 07:34:07] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:34:08] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:34:08] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:34:27] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:34:27] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:34:27] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:34:29] INFO: [4811e565-5ed0-4e9a-b564-29c5d36da58b]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:34:29] INFO: [4811e565-5ed0-4e9a-b564-29c5d36da58b]: 
+    error: "Error: 2 UNKNOWN: Invalid token\n    at Object.callback (/home/devguru/Project/micro-services/blog-service/dist/src/pre-handlers/auth.prehandler.js:21:25)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client.js:192:36)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)\n    at /home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"
+[2024-01-09 07:34:29] INFO: [4811e565-5ed0-4e9a-b564-29c5d36da58b]: request completed
+    res: {
+      "statusCode": 401
+    }
+    responseTime: 17.87384100072086
+[2024-01-09 07:34:59] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:34:59] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:34:59] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:35:24] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:35:24] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:35:24] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:35:26] INFO: [b86eddc3-f2ec-4769-9f2c-4f2f75640206]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:35:26] INFO: [b86eddc3-f2ec-4769-9f2c-4f2f75640206]: 
+    error: "Error: Invalid token\n    at Object.callback (/home/devguru/Project/micro-services/blog-service/dist/src/pre-handlers/auth.prehandler.js:21:25)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client.js:192:36)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)\n    at /home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"
+[2024-01-09 07:35:26] INFO: [b86eddc3-f2ec-4769-9f2c-4f2f75640206]: request completed
+    res: {
+      "statusCode": 401
+    }
+    responseTime: 16.68651899881661
+[2024-01-09 07:35:42] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:35:42] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:35:42] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:35:55] INFO: [dd19c2bb-a269-41d4-8fcf-4d1bd723c2a3]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:35:55] INFO: [dd19c2bb-a269-41d4-8fcf-4d1bd723c2a3]: 
+    error: "Error: Invalid token\n    at Object.callback (/home/devguru/Project/micro-services/blog-service/dist/src/pre-handlers/auth.prehandler.js:21:25)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client.js:192:36)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:360:141)\n    at Object.onReceiveStatus (/home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:323:181)\n    at /home/devguru/Project/micro-services/blog-service/node_modules/@grpc/grpc-js/build/src/resolving-call.js:99:78\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"
+[2024-01-09 07:35:55] INFO: [dd19c2bb-a269-41d4-8fcf-4d1bd723c2a3]: request completed
+    res: {
+      "statusCode": 401
+    }
+    responseTime: 19.03932999819517
+[2024-01-09 07:36:01] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:36:01] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:36:01] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:36:09] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:36:09] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:36:09] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:36:11] INFO: [5e52b2b9-10b1-426f-8bc4-f46352424a97]: incoming request
+    req: {
+      "method": "GET",
+      "url": "/blog-service/blog/check",
+      "ip": "127.0.0.1"
+    }
+[2024-01-09 07:36:11] INFO: [5e52b2b9-10b1-426f-8bc4-f46352424a97]: request completed
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 17.99201299995184
+[2024-01-09 07:53:45] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:53:45] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:53:45] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:55:12] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:55:12] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:55:12] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:58:39] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:58:39] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:58:39] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:59:49] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:59:50] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:59:50] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 07:59:55] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 07:59:55] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 07:59:55] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 08:00:10] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 08:00:10] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 08:00:10] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 08:00:58] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 08:00:58] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 08:00:58] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 08:01:07] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 08:01:07] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 08:01:07] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 08:01:30] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 08:01:30] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 08:01:30] INFO: []: Server listening on http://0.0.0.0:8000
+[2024-01-09 08:07:33] INFO: []: [blog-service]-[prisma] Database connected
+[2024-01-09 08:07:33] INFO: []: Server listening at http://0.0.0.0:8000
+[2024-01-09 08:07:33] INFO: []: Server listening on http://0.0.0.0:8000

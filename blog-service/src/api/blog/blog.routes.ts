@@ -4,17 +4,17 @@ import BlogController from "./blog.controller";
 
 const blogController = new BlogController();
 
-const blogRoutes : IRouteOptions<{
-    Params: any;
-	Body: any;
-	Querystring: any;
+const blogRoutes: IRouteOptions<{
+  Params: any;
+  Body: any;
+  Querystring: any;
 }>[] = [
-    {
-        handler : blogController.health,
-        method: API_METHODS.GET,
-        url : '/check',
-        preHandler : [],
-    }
-]
+  {
+    handler: blogController.health,
+    method: API_METHODS.GET,
+    url: "/check",
+    preHandler: [],
+  },
+];
 
 export default blogRoutes;
