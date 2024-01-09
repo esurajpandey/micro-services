@@ -1,13 +1,13 @@
-import AuthException from "./Auth.exception.js";
+import AuthException from './Auth.exception.js'
 
 class CustomException extends AuthException {
-    constructor(params) {
-        super({
-            ...params,
-            code : 'CUSTOM_ERROR',
-            status : 400,
-        })
-    }
+  constructor(params) {
+    super({
+      ...params,
+      code: 'CUSTOM_ERROR',
+      status: 400,
+    })
+  }
 }
 
-export default CustomException;
+export default CustomException

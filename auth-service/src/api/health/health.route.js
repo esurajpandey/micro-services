@@ -1,11 +1,11 @@
-import healthController from "./health.controller.js";
+import healthController from './health.controller.js'
 
 const healthRoutes = [
-    {
-        url : '/',
-        handler : healthController.check,
-        method : 'GET',
-    }
+  {
+    url: '/',
+    handler: healthController.check,
+    method: 'GET',
+  },
 ]
 
-export default healthRoutes;
+export default healthRoutes

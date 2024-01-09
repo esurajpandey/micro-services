@@ -1,13 +1,13 @@
-import AuthException from "./Auth.exception.js";
+import AuthException from './Auth.exception.js'
 
 class UnAuthorized extends AuthException {
-    constructor(params) {
-        super({
-            ...params,
-            code : 'UN_AUTHORIZED',
-            status : 401,
-        })
-    }
+  constructor(params) {
+    super({
+      ...params,
+      code: 'UN_AUTHORIZED',
+      status: 401,
+    })
+  }
 }
 
-export default UnAuthorized;
+export default UnAuthorized

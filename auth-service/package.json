@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/server.js",
-    "check": "nodemon clientStub.js"
+    "check": "nodemon clientStub.js",
+    "pretty": "prettier --write \"src/**/*.js\"",
+    "check-format": "prettier --check \"src/**/*.js\""
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
     "prisma": "^5.7.1"
   }
 }
