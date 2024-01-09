@@ -10,5 +10,9 @@
 /blog-service/node_modules
 /blog-service/.env
 /blog-service/logs
+/blog-service/dist
+/blog-service/dist/**
+
+
 
 
