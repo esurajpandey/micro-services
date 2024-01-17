@@ -36,7 +36,7 @@ docker run --name postgres-db -e POSTGRES_PASSWORD=root -p 5434:5432 -d postgres
 # Get PostgreSQL container IP address
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' postgres-db\
 
-** Managing Docker Containers
+** Managing Docker Containers **
 
 # List all containers
 docker ps -a
