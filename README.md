@@ -39,10 +39,10 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' pos
 # Managing Docker Containers 
 
 - List all containers
-docker ps -a
+    - docker ps -a
 
 - Remove all unused containers, networks, and images
-docker system prune
+    - docker system prune
 
 - Remove a specific container
-docker rm <container-name>
+    - docker rm <container-name>
