@@ -16,6 +16,7 @@ class App {
         this.initializeErrorHandler()
       })
       .catch((error) => {
+        console.log(error)
         logger.error({
           message: '[Auth-Service]-[Routers] initialization error',
           error,

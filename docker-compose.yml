@@ -1,0 +1,84 @@
+version: '3'
+
+services:
+  db-service:
+    image: postgres:latest
+    container_name: db-service
+    ports:
+      - 5434:5432
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=my-app
+    networks:
+      - local-blog
+
+  auth-service:
+    build:
+      context: ./auth-service
+      dockerfile: Dockerfile 
+    container_name: auth-service
+    environment:
+      - JWT_SECRET=sdkjfnsbfasdbnjfknbsdfsdkjf
+      - NODE_ENV=PRODUCTION
+      - DATABASE_URL=postgresql://postgres:root@db-service:5432/my-app
+      - APP_PORT=5000
+      - GRPC_PORT=55056
+    command: sh -c "npx prisma migrate deploy --preview-feature && npm start"
+    restart: on-failure
+    expose:
+      - 5000
+      - 55056
+    ports:
+      - "5000:5000"
+      - "55056:55056"
+    networks:
+      - local-blog
+    depends_on:
+      - db-service
+
+  blog-service:
+    build:
+      context: ./blog-service  
+      dockerfile: Dockerfile
+    container_name: blog-service
+    environment:
+      - DATABASE_URL=postgresql://postgres:root@db-service:5432/my-app 
+      - APP_PORT=8000
+      - JWT_SECRET=123345dsjbjhdsfbasdjbf
+      - NODE_ENV=PRODUCTION
+      - AUTH_GRPC=auth-service:55056 
+    ports:
+      - "8000:8000"
+    networks:
+      - local-blog
+    depends_on:
+      - db-service
+      - auth-service
+  user-service:
+    build: 
+      context: ./user-service
+      dockerfile: Dockerfile
+    container_name: user-service
+    environment:
+      - DATABASE_URL=postgresql://postgres:root@db-service:5432/my-app 
+      - APP_PORT=9000
+      - JWT_SECRET=123345dsjbjhdsfbasdjbf
+      - NODE_ENV=PRODUCTION
+      - AUTH_GRPC=auth-service:55056 
+    ports:
+      - "9000:9000"
+    networks:
+      - local-blog
+    depends_on:
+      - db-service
+      - auth-service
+
+networks:
+  local-blog:
+    driver: bridge
+
+
+  
+  
+

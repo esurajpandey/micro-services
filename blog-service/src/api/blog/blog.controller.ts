@@ -19,14 +19,14 @@ class BlogController {
     request: FastifyRequest<{ Body: ICreateBlog }>,
     reply: FastifyReply,
   ) {
-    const userId = request.requestContext.get('userId');
-    const role = request.requestContext.get('role');
-    console.log({role});
-    if (role !== role_types.ADMIN){
-      throw new AccessDenied('Only admin can create blog');
+    const userId = request.requestContext.get("userId");
+    const role = request.requestContext.get("role");
+    console.log({ role });
+    if (role !== role_types.ADMIN) {
+      throw new AccessDenied("Only admin can create blog");
     }
-    const blog = await blogDao.createBlog(request.body,userId);
-    reply.status(201).send(fmt.formatResponse(blog,'Blog has been added'));
+    const blog = await blogDao.createBlog(request.body, userId);
+    reply.status(201).send(fmt.formatResponse(blog, "Blog has been added"));
   }
 
   public async createTag(
@@ -42,7 +42,7 @@ class BlogController {
     reply.status(200).send(fmt.formatResponse(tags, "All tags"));
   }
 
-  public async getBlogs(request: FastifyRequest, reply: FastifyReply){
+  public async getBlogs(request: FastifyRequest, reply: FastifyReply) {
     const blogs = await blogDao.getBlogs();
     reply.status(200).send(fmt.formatResponse(blogs, "All Blogs"));
   }

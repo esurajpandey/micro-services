@@ -1,7 +1,11 @@
 import { API_METHODS } from "../../interface/api.interface";
 import { IRouteOptions } from "../../interface/fastify.interface";
 import BlogController from "./blog.controller";
-import { createBlogsSchema, getBlogsSchema, getTagsSchema } from "./blog.schema";
+import {
+  createBlogsSchema,
+  getBlogsSchema,
+  getTagsSchema,
+} from "./blog.schema";
 
 const blogController = new BlogController();
 
@@ -26,21 +30,21 @@ const blogRoutes: IRouteOptions<{
     handler: blogController.createBlog,
     method: API_METHODS.POST,
     url: "/blog",
-    schema : createBlogsSchema,
+    schema: createBlogsSchema,
     preHandler: [],
   },
   {
     handler: blogController.getTags,
     method: API_METHODS.GET,
     url: "/tag",
-    schema : getTagsSchema,
+    schema: getTagsSchema,
     preHandler: [],
   },
   {
     handler: blogController.getBlogs,
     method: API_METHODS.GET,
     url: "/blog",
-    schema : getBlogsSchema,
+    schema: getBlogsSchema,
     preHandler: [],
   },
 ];

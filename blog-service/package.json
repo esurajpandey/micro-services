@@ -8,7 +8,8 @@
     "prisma:format": "npx -y @paljs/cli schema camel-case",
     "dev": "tsc-watch --onSuccess \"node ./dist/src/server.js\"",
     "pretty": "npx prettier --write src",
-    "pretty:check": "npx prettier --list-different src || exit 2"
+    "pretty:check": "npx prettier --list-different src || exit 2",
+    "start": "NODE_ENV=PRODUCTION node dist/src/server.js"
   },
   "keywords": [],
   "author": "",

@@ -13,7 +13,7 @@ const logger = require("pino")({
       ignore: "pid,hostname,reqId",
       messageFormat: "[{reqId}]: {msg}",
       colorize: false,
-      destination: "./log/logs.log",
+      destination: "./logs.log",
     },
   },
   serializers: {

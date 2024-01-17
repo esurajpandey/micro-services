@@ -2,7 +2,7 @@ import AuthDao from './auth.dao.js'
 import fmt from '../../config/formatter.js'
 import BadRequest from '../../exceptions/BadRequest.exception.js'
 import CustomException from '../../exceptions/Customize.exception.js'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import UnAuthorized from '../../exceptions/UnAutherized.exception.js'
 import jwtService from '../../services/jwt.service.js'
 
@@ -22,8 +22,9 @@ class AuthController {
         throw new BadRequest('Email is already registered')
       }
 
-      const password = await bcrypt.hash(request.body.password, 10)
-      const user = authDao.createUser({
+      const salt = await bcrypt.genSalt(10)
+      const password = await bcrypt.hash(request.body.password, salt)
+      const user = await authDao.createUser({
         ...request.body,
         password: password,
       })
@@ -47,7 +48,10 @@ class AuthController {
         throw new BadRequest('User not exist', 400)
       }
 
-      const isMatched = await bcrypt.compare(request.body.password, user.password);
+      const isMatched = await bcrypt.compare(
+        request.body.password,
+        user.password,
+      )
 
       if (!isMatched) {
         throw new UnAuthorized({
@@ -74,6 +78,7 @@ class AuthController {
         ),
       )
     } catch (error) {
+      // console.log(error)
       next(error)
     }
   }

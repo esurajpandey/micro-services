@@ -9,7 +9,9 @@
     "dev": "nodemon ./src/server.js",
     "check": "nodemon clientStub.js",
     "pretty": "prettier --write \"src/**/*.js\"",
-    "check-format": "prettier --check \"src/**/*.js\""
+    "check-format": "prettier --check \"src/**/*.js\"",
+    "pm2": "pm2 start ./processes.json --no-daemon",
+    "start": "NODE_ENV=PRODUCTION node src/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +19,7 @@
     "@grpc/grpc-js": "^1.9.13",
     "@grpc/proto-loader": "^0.7.10",
     "@prisma/client": "^5.7.1",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cls-rtracer": "^2.6.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",

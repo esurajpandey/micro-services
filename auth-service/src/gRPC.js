@@ -35,7 +35,7 @@ Object.entries(grpcFuntions).forEach(([functionName, func]) => {
 server.addService(authProto.Authentication.service, services)
 
 server.bindAsync(
-  '0.0.0.0:50051',
+  '0.0.0.0:' + config.grpcPort,
   grpc.ServerCredentials.createInsecure(),
   (error, port) => {
     if (error) {

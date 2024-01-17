@@ -8,7 +8,7 @@ class Config {
   public baseUrl: string;
   constructor(env: NodeJS.ProcessEnv) {
     this.env = (env.NODE_ENV as IEnvironments) || "DEVELOPMENT";
-    this.appPort = this.getNumberValue(env.APP_PORT);
+    this.appPort = this.getNumberValue(env?.APP_PORT);
     this.authGrpc = env.AUTH_GRPC || "";
     this.jwtSecret = env.JWT_SECRET || "";
     this.baseUrl = env.BASE_URL || "";
